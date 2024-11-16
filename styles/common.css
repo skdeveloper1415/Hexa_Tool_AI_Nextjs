@@ -1,0 +1,608 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');/* Inter google font import form input field font */
+
+/* Form */
+/* .p-inputtext{
+   padding: 10px 14px;
+   border-color: #C6CBD2;
+   border-radius: 8px;
+   font-size: 0.833vw;
+   color: #344054;
+   font-family: 'Inter', sans-serif;
+} */
+.p-dropdown{
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+}
+.search-voice .p-inputtext::placeholder, .custom-search .p-inputtext::placeholder {
+    color: #667085;
+}
+
+.p-scrollpanel .p-scrollpanel-bar {
+    background: #dfdfdf;
+}
+
+/* Breadcrumb */
+.p-breadcrumb ol{
+    display: flex;
+    align-items: center;
+}
+.custom-breadcrumb.p-breadcrumb{
+    padding: 0;
+    border: 0;
+}
+.custom-breadcrumb.p-breadcrumb .p-breadcrumb-list li a span{
+    color: #1570EF;
+    font-weight: normal;
+}
+.custom-breadcrumb.p-breadcrumb .p-breadcrumb-list li:last-child .p-menuitem-text{
+    color: #667085;
+}
+.custom-breadcrumb.p-breadcrumb .p-breadcrumb-list li.p-menuitem-separator{
+    margin: 0 16px;
+    color: #98A2B3;
+}
+.custom-breadcrumb.p-breadcrumb .p-breadcrumb-list li.p-menuitem-separator .p-breadcrumb-chevron{
+    width: 10px;
+    height: 10px;
+}
+
+/* Generate page */
+.generate-content{
+    font-family: 'Inter', sans-serif;
+}
+.generate-content p, .generate-content h3, .generate-content h5, .generate-content h4, .generate-content ol, .generate-content ul{
+    margin-bottom: 1.04vw;
+}
+.generate-content h4,.generate-content h5{
+    font-weight: 600;
+    color: #101828;
+}
+.generate-content h3{
+    font-size: 0.833vw;
+}
+.generate-content h3 b{
+    font-weight: 500;
+    color: #101828;
+}
+.generate-content ol{
+    padding-left: 40px;
+    list-style: decimal;
+}
+.generate-content ul{
+    padding-left: 40px;
+    list-style: disc;
+}
+
+
+/* Action popup */
+.custom-popup .p-dialog-header-close{
+    position: absolute;
+    right: -20px;
+    top: -20px;
+}
+.custom-popup.p-dialog .p-dialog-header .p-dialog-header-icon{
+    background-color: #b2cef6;
+    border: 1px solid #b2cef6;
+    border-radius: 40px;
+    color: #1570EF;
+    width: 40px;
+    height: 40px;
+}
+.custom-popup.p-dialog .p-dialog-header .p-dialog-header-icon:enabled:hover{
+    background-color: #b2cef6;
+    border: 1px solid #b2cef6;
+    border-radius: 40px;
+    color: #1570EF;
+}
+.custom-popup.p-dialog .p-dialog-header{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 0;
+}
+.custom-popup.p-dialog .p-dialog-content{
+    padding: 24px;
+}
+.custom-popup.p-dialog .p-dialog-content:last-of-type{
+    border-radius: 12px;
+}
+.custom-popup1.p-dialog .p-dialog-content {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+}
+/* nilesh css start */
+.orange_dropdonw .p-inputtext {
+    padding: 0px;
+    color: #1570EF;
+    font-weight: 500;
+}
+.orange_dropdonw .p-dropdown {
+    border: none;
+}
+.orange_dropdonw .p-dropdown svg.p-icon{ color: #1570EF;}
+
+.grey_dropdonw .p-inputtext { color: #98A2B3;}
+.grey_dropdonw .p-dropdown .p-dropdown-trigger::before{
+    font-family: 'hexatoolai';
+    content: "\e935";
+    font-size: 8px;
+    color: #98A2B3;
+}
+.grey_dropdonw .p-dropdown svg{
+    display: none;
+}
+.grey_dropdonw .p-dropdown .p-dropdown-trigger{ width: 1.557rem;}
+
+.texteditor_dropdonw .p-dropdown .p-dropdown-trigger::before{
+    font-family: 'hexatoolai';
+    content: "\e935";
+    font-size: 8px;
+    color: #1B55AF;
+    font-weight: 400;
+}
+.texteditor_dropdonw .p-dropdown svg{
+    display: none;
+}
+.texteditor_dropdonw .p-inputtext { color: #1B55AF;}
+.texteditor_dropdonw .p-dropdown .p-dropdown-trigger{ width: 1.557rem;}
+
+/* custom tabview */
+.custTabview.p-dataview .p-dataview-header {
+    padding: 0px;
+    background: #fff;
+    border: 1px solid #C8CBD0;
+    border-bottom: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.custTabview .p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+    background: #1570EF;
+    border-color: #1570EF;
+    color: #fff;
+}
+
+.custTabview .p-paginator .p-paginator-pages .p-paginator-page {
+    border-radius: 100%;
+    background: #fff;
+    color: #101828;
+    font-weight: 700;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.custTabview .p-paginator {
+    justify-content: end;
+    border: none;
+}
+.custTabview .p-paginator .p-paginator-first  { display: none;}
+.custTabview .p-paginator .p-paginator-last  { display: none;}
+.custTabview .p-paginator-prev::after {
+    content: 'Prev Page';
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.custTabview .p-paginator-next::before {
+    content: 'Next Page';
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.custTabview .p-paginator-next.p-disabled {color: #C8CBD0;}
+.custTabview .p-paginator-prev.p-disabled {color: #C8CBD0;}
+.custTabview .p-paginator-next {color: #1570EF;}
+.custTabview .p-paginator-prev { color: #1570EF;}
+.custTabview.p-paginator .p-paginator-first:not(.p-disabled):not(.p-highlight):hover,.custTabview .p-paginator .p-paginator-prev:not(.p-disabled):not(.p-highlight):hover,.custTabview .p-paginator .p-paginator-next:not(.p-disabled):not(.p-highlight):hover,.custTabview .p-paginator .p-paginator-last:not(.p-disabled):not(.p-highlight):hover{
+    background: none;
+}
+
+/* check box */
+.CustomCheckBox.p-checkbox .p-checkbox-box {
+    border: 1px solid #C8CBD0;
+    background: #FFF;
+    width: 16px;
+    height: 16px;
+    color: #495057;
+    border-radius: 4px;
+  }
+  .CustomCheckBox.p-checkbox{
+    width: 16px;
+    height: 16px;
+  }
+
+  .CustomCheckBox.p-checkbox .p-checkbox-box .p-checkbox-icon {
+    color: #1570EF;
+    width: 10px;
+    height: 10px;
+  }
+
+  .CustomCheckBox.p-checkbox.p-highlight .p-checkbox-box {
+    border-color: #1570EF;
+    background: #FFF;
+    color: #1570EF;
+  }
+
+  .CustomCheckBox.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-highlight:hover {
+    border-color: #1570EF;
+    background: #FFF;
+    color: #1570EF;
+  }
+  .CustomCheckBox.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box:hover {
+    border-color: #1570EF;
+  }
+  .CustomCheckBox.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-focus{
+    box-shadow: none !important;
+    border-color: #1570EF;
+  }
+
+.custoverlay.p-overlaypanel {
+    border-radius: 6px;
+    box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.10);
+}
+.custoverlay.p-overlaypanel:after, .custoverlay.p-overlaypanel:before {
+    display: none;
+}
+/* nilesh css end */
+
+/* Main page */
+.custom-search .p-inputtext{
+    padding-left: 53px;
+    height: 66px;
+    box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.05);
+}
+.keydropdown .p-dropdown{
+    border-radius: 40px;
+    box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.05);
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.p-hidden-accessible input{
+    background: transparent;
+}
+.keydropdown .p-dropdown .p-inputtext{
+    color: #1570EF;
+    font-weight: 600;
+    padding: 20px;
+}
+.keyshadow{
+    box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.05);
+}
+/*  PP Style*/
+.custheader .p-datatable-thead{
+    display: none;
+}
+.custheader .p-checkbox-box{
+    width: 16px;
+    height: 16px;
+}
+.custheader .p-checkbox .p-checkbox-box.p-highlight {
+    border-color: #E57200;
+    background: #E57200;
+}
+.custheader .p-checkbox-box:hover{
+    border-color: #E57200;
+    }
+    .custheader .p-checkbox-box:focus-visible{
+        border-color: #E57200;
+        }
+.custheader .p-datatable .p-datatable-tbody > tr > td {
+    text-align: left;
+    border: 1px solid #e5e7eb;
+    border-width: 0 0 1px 0;
+    padding: 0.625rem;
+    }
+
+.custheader .p-paginator {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+.custheader .p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+    background: #1570EF;
+    border-color: #1570EF;
+    color: #FFFFFF;
+  }
+
+  .custheader .p-paginator .p-paginator-pages .p-paginator-page {
+    background-color: #fff;
+    border: 0 none;
+    color: #101828;
+    min-width: 2.357rem;
+    height: 2.357rem;
+    margin: 0.143rem;
+    transition: box-shadow 0.2s;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  .custheader .p-link {
+    font-family: var(--font-family);
+    font-feature-settings: var(--font-feature-settings, normal);
+    font-size: 14px;
+  }
+
+    /* .tableCust .p-paginator {
+        justify-content: end;
+        border: 0;
+        padding: 0;
+        padding-top: 16px;
+    }
+    .tableCust .p-paginator .p-paginator-first, .tableCust .p-paginator .p-paginator-prev, .tableCust .p-paginator .p-paginator-next, .tableCust .p-paginator .p-paginator-last, .tableCust .p-paginator .p-paginator-pages .p-paginator-page {
+        border: 1px solid #EAE0E0;
+        border-radius: 0;
+        width: 1.719vw;
+        height: 1.819vw;
+        margin: 0;
+        min-width: inherit;
+        font-size: 0.833vw;
+    }
+    .tableCust .p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+        border: 1px solid #EAE0E0;
+        background-color: #FCF5F6;
+        color: #262626;
+        font-weight: 500;
+    }
+    .tableCust .p-paginator .p-paginator-pages .p-paginator-page:not(.p-highlight):hover, .tableCust .p-paginator .p-paginator-first:not(.p-disabled):not(.p-highlight):hover, .tableCust .p-paginator .p-paginator-prev:not(.p-disabled):not(.p-highlight):hover, .tableCust .p-paginator .p-paginator-next:not(.p-disabled):not(.p-highlight):hover, .tableCust .p-paginator .p-paginator-last:not(.p-disabled):not(.p-highlight):hover {
+        background-color: #FCF5F6;
+        border-color: #EAE0E0;
+    }
+    .tableCust .p-paginator .p-paginator-prev {
+        border-radius: 4px 0 0 4px;
+        width: 2.917vw;
+    }
+    .tableCust .p-paginator .p-paginator-next {
+        border-radius: 0 4px 4px 0;
+        width: 2.917vw;
+    }
+    .tableCust .pi-angle-left:before{
+        font-family: 'Inter', sans-serif !important;
+        content: "Previous" !important;
+        font-size: 0.833vw;
+    }
+    .tableCust .pi-angle-right:before {
+        font-family: 'Inter', sans-serif !important;
+        content: "Next" !important;
+        font-size: 0.833vw;
+    }
+    .tableCust .p-paginator-pages button {
+        font-size: 0.833vw;
+    }
+    .custTable.p-datatable .p-paginator-bottom{
+        border: 0;
+        border-top: 1px solid #F2EEEE;
+        border-radius: 0 0 12px 12px;
+        padding: 16px;
+    }
+    .custTable.p-datatable .p-paginator-current{
+        position: absolute;
+        left: 0;
+        color: #888888;
+        font-weight: 400;
+        font-size: 0.833vw;
+    }
+     */
+ .file-upload .p-fileupload-choose{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+ }
+ .custom-editor .p-editor-container .p-editor-toolbar{
+    background: #fff;
+    padding: 16px;
+ }
+ .custom-editor .p-editor-container .p-editor-toolbar.ql-snow .ql-picker .ql-picker-label , .custom-editor .p-editor-container .p-editor-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-label {
+    color: #101828;
+ }
+ .custom-editor .p-editor-container .p-editor-toolbar.ql-snow .ql-stroke {
+    stroke: #101828;
+ }
+ .custom-editor .p-editor-container .ql-snow.ql-toolbar button.ql-active .ql-stroke, .custom-editor .p-editor-container .ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke, .custom-editor .p-editor-container .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke{
+    stroke: #E57200;
+ }
+ .custom-editor .ql-formats{
+    margin-bottom: 10px;
+ }
+ .custom-editor .ql-formats > *{
+    margin-right: 8px;
+ }
+ .cust-editor .ed-btn{
+    display: none;
+ }
+  .custm-search i {
+    /* margin-top: -0.2rem; */
+    padding-left: 0.6rem;
+}
+.custm-search .p-inputtext {
+    border-radius: 0.521vw;
+    padding-left: 2.208vw;
+    font-size: 12px;
+}
+.custdropdown .p-dropdown-label .p-inputtext .p-placeholder{
+	padding-top: 7px;
+padding-bottom: 7px;
+padding-right: 10px;
+
+}
+.cust_table {
+    border: 1px solid #C8CBD0;
+    border-radius: 10px;
+}
+.custpopup .p-dialog-header{
+display: none;
+}
+.custpopup .p-dialog-content {
+    background: #ffffff;
+    color: #4b5563;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    border-radius: 12px;
+}
+
+.p-dialog-left{
+    justify-content: center !important; /* Added for create new class popup left to center animation as per figma */
+}
+.custom-accordion .p-accordion .p-accordion-tab{
+    margin-bottom: 0.833vw;
+}
+.custom-accordion .p-accordion .p-accordion-tab:last-child{
+    margin-bottom: 0;
+}
+.custom-accordion .p-accordion .p-accordion-header .p-accordion-header-link{
+    border: 0;
+    padding: 0;
+}
+.custom-accordion .p-accordion .p-accordion-header:not(.p-disabled).p-highlight .p-accordion-header-link, .custom-accordion .p-accordion .p-accordion-header .p-accordion-header-link{
+    background: none;
+}
+.custom-accordion .p-accordion .p-accordion-header .p-accordion-header-link svg{
+    order: 1;
+}
+.custom-accordion .p-accordion .p-accordion-content{
+    border: 0;
+    padding: 0;
+}
+.custom-accordion .p-accordion-header-text{
+    color: #344054;
+    font-size: 0.833vw;
+    font-weight: normal;
+}
+.custom-accordion .p-checkbox .p-checkbox-box{
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: #C8CBD0;
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+}
+.legend-container, .layer-selector-container{
+    display: none;
+}
+.map-controls-container{
+    left: auto;
+    right: 1rem;
+}
+
+
+.customScroller {
+    overflow : auto;
+  }
+
+  /* / Scroll bar / */
+  .customScroller::-webkit-scrollbar{
+      height: 8px;
+      width: 8px;
+      background: transparent;
+  }
+
+  /* / Track / */
+  .customScroller::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  /* / Handle / */
+  .customScroller::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* / Handle on hover / */
+  .customScroller::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .customScroller::-webkit-scrollbar-thumb:horizontal{
+      background: #d8d5d5;
+      border-radius: 8px;
+  }
+  .customScroller::-webkit-scrollbar-thumb:vertical{
+      background: #d8d5d5;
+      border-radius: 8px;
+  }
+
+ /* file upload start  */
+ .cust_file_upload .p-button {
+    display: inline-block;
+    width: 100%;
+    min-height: 90px;
+    color: #184C9D;
+    background: #E8EEF7;
+    border-color: #1570EF;
+    border-style: dashed;
+ }
+.cust_file_upload .p-button:not(:disabled):hover{
+    background: #E8EEF7;
+    border-color: #1570EF;
+    border-style: dashed;
+ }
+.cust_file_upload .p-button-label {
+    word-wrap: break-word;
+    display: block;
+    font-size: 14px;
+    color: #184C9D;
+ }
+.cust_file_upload svg {
+    display: none;
+ }
+.cust_file_upload .p-button:before {
+    font-family: 'hexatoolai';
+    content: "\e92e";
+    color: #3696FB;
+    font-size: 25px;
+ }
+ .cust_file_upload .p-button 
+ {
+    padding: 2rem 1rem;
+ }
+
+ /* file upload start  */
+
+
+/***********************************************
+            Responsive
+***********************************************/
+
+@media (max-width:1799px) {
+    .generate-content p, .generate-content h3, .generate-content h5, .generate-content h4, .generate-content ol, .generate-content ul{
+        margin-bottom: 16px;
+    }
+    .p-inputtext{
+        font-size: 16px;
+     }
+     .generate-content h3{
+        font-size: 16px;
+    }
+
+    /* Custom Accordion */
+    .custom-accordion .p-accordion .p-accordion-tab{
+        margin-bottom: 12px;
+    }
+    .custom-accordion .p-accordion-header-text{
+        color: #344054;
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width:1280px) {
+    .generate-content p, .generate-content h5, .generate-content h4, .generate-content ol, .generate-content ul{
+        margin-bottom: 12px;
+    }
+    .p-inputtext{
+        font-size: 14px;
+     }
+     .generate-content ol, .generate-content ul{
+        padding-left: 25px;
+    }
+
+}
+
+@media (min-width:1800px) {
+    .cust_file_upload .p-button {
+        min-height: 5.004vw;
+     }
+     .cust_file_upload .p-button-label {
+        font-size: 0.833vw;
+     }
+}
+
